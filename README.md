@@ -1,9 +1,8 @@
 Overview
 --------
-fsec this is derived from `forward-secrect`
-''' 
-`forward-secrecy` is a simple implementation of the Axolotl key-ratcheting protocol written in Javascript. It uses NaCl (in this case, [TweetNacl](https://github.com/dchest/tweetnacl-js)) for encryption, meaning sessions are secured with Curve25519 keys and Salsa20 encryption.
-'''
+`fsec` is derived from `forward-secrect`
+
+> `forward-secrecy` is a simple implementation of the Axolotl key-ratcheting protocol written in Javascript. It uses NaCl (in this case, [TweetNacl](https://github.com/dchest/tweetnacl-js)) for encryption, meaning sessions are secured with Curve25519 keys and Salsa20 encryption.
 which can be found @ https://github.com/alax/forward-secrecy
 
 
