@@ -19,7 +19,9 @@ export default class {
         //to use sha512 - scheduled for future work. //bassel
         //var derivedKey = pbkdf2.pbkdf2Sync('password', 'salt', 1, 32, 'sha512')
         //console.log(derivedKey.toString('hex'))
-        console.log(machineId())
+        //will do this once initial bachelor project is done.
+        console.log(machineIdSync()) //woot.
+
         // Storage function that is set later on.
         this._store = null
 
