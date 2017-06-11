@@ -37,7 +37,7 @@ export default class {
 
         // Am I Alice or Bob in this scenario?
         // roles should be phased out for omemo and should be reduced to sender and reciever
-        // to enable a multi party session
+        // to enable a multi party sessioN
         this._role = null
         this._baseKeys = null
         this._theirBaseKey = null
