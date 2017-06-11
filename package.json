@@ -12,6 +12,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "node-machine-id": "^1.1.4",
     "pbkdf2-sha256": "^1.1.0",
     "tweetnacl": "^0.13.1"
   },
