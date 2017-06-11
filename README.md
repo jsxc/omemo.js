@@ -47,7 +47,7 @@ future of fsec
 
 * solicit auditing to make sure fsec is safe for critical applications
 * module maintenance
-* move from pbkdf2-sha256 to pbkdf2 node modules in order to use sha512 hmac.
+* move from pbkdf2-sha256 to pbkdf2 node module in order to use sha512 hmac.
 * maintenance as open source project
-* maintance as a crypto pedagogical resource
+* maintenance as a crypto pedagogical resource
 
