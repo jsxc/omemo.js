@@ -15,7 +15,7 @@ Milestones
 **current:**
 
  
-* 8-10 june 2017:  forward-secrecy clones, built and tested 
+* 8-10 june 2017:  forward-secrecy forked, built and tested 
 * 11 june 2017: reading axolotl/olm spec as well as further omemo protocol inspection to identify missing pieces
 
 
@@ -41,3 +41,13 @@ Milestones
 projected preliminary completion date
 ----------
 august 30th.
+
+future of fsec
+----------
+
+* solicit auditing to make sure fsec is safe for critical applications
+* module maintenance
+* move from pbkdf2-sha256 to pbkdf2 node modules in order to use sha512 hmac.
+* maintenance as open source project
+* maintance as a crypto pedagogical resource
+
