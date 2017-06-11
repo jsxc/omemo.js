@@ -14,9 +14,11 @@ Milestones
  
 * 8-10 june 2017:  forward-secrecy forked, built and tested 
 * 11 june 2017: reading axolotl/olm spec as well as further omemo protocol inspection to identify missing pieces
-* encountered Error with node-machine-id package - see output:  https://gist.github.com/Shokodemon/5148d0dafb27fa6427cbc28c52ee8416
-    * must fix package before proceeding so that we can grab a deviceId for omemo
-    * forking, fixing and sending a pull request.
+```diff
+- encountered Error with node-machine-id package - see output:  https://gist.github.com/Shokodemon/5148d0dafb27fa6427cbc28c52ee8416
++    * must fix package before proceeding so that we can grab a deviceId for omemo
++    * forking, fixing and sending a pull request.
+```
 **upcoming**
 
 * 11-18 june 2017: fsec gets prepared to implement omemo by creating a skeleton of missing functions between axolotl/olm and omemo.
