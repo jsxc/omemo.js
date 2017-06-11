@@ -51,3 +51,82 @@ future of fsec
 * maintenance as open source project
 * maintenance as a crypto pedagogical resource
 
+es6-plato output on the project @ june 2017
+---------
+'''bash
+report ---> ModuleReport {
+  methodAggregate: 
+   AggregateMethodReport {
+     methodAggregate: undefined,
+     cyclomatic: 52,
+     cyclomaticDensity: 22.222,
+     halstead: 
+      HalsteadData {
+        bugs: 4.827,
+        difficulty: 86.821,
+        effort: 1257319.965,
+        length: 1891,
+        time: 69851.109,
+        vocabulary: 202,
+        volume: 14481.678,
+        operands: [Object],
+        operators: [Object] },
+     params: 34,
+     sloc: { logical: 234, physical: 824 } },
+  settings: 
+   { commonjs: false,
+     dependencyResolver: undefined,
+     forin: false,
+     logicalor: true,
+     switchcase: true,
+     trycatch: false,
+     newmi: false },
+  classes: 
+   [ ClassReport {
+       methodAggregate: [Object],
+       errors: [],
+       lineEnd: 824,
+       lineStart: 4,
+       methods: [Object],
+       methodAverage: [Object],
+       name: '<anonymous>',
+       maintainability: 110.608 } ],
+  dependencies: 
+   [ { line: 1, path: 'tweetnacl', type: 'esm' },
+     { line: 2, path: './utils', type: 'esm' } ],
+  errors: [],
+  filePath: undefined,
+  lineEnd: 824,
+  lineStart: 1,
+  maintainability: 110.608,
+  methods: [],
+  methodAverage: 
+   MethodAverage {
+     cyclomatic: 2.417,
+     cyclomaticDensity: 45.861,
+     halstead: 
+      HalsteadAverage {
+        bugs: 0.091,
+        difficulty: 6.356,
+        effort: 6330.063,
+        length: 50.972,
+        time: 351.67,
+        vocabulary: 17.417,
+        volume: 273.224,
+        operands: [Object],
+        operators: [Object] },
+     params: 0.944,
+     sloc: { logical: 6.472, physical: 28.5 } },
+  srcPath: undefined,
+  srcPathAlias: undefined,
+  module: 'src/index.js',
+  aggregate: 
+   { complexity: 
+      { methodAggregate: undefined,
+        cyclomatic: 52,
+        cyclomaticDensity: 22.222,
+        halstead: [Object],
+        params: 34,
+        sloc: [Object] } },
+  functions: [] }
+'''
