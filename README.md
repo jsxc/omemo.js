@@ -53,7 +53,7 @@ future of fsec
 
 es6-plato output on the project @ june 2017
 ---------
-'''bash
+```bash
 report ---> ModuleReport {
   methodAggregate: 
    AggregateMethodReport {
@@ -129,4 +129,4 @@ report ---> ModuleReport {
         params: 34,
         sloc: [Object] } },
   functions: [] }
-'''
+```
