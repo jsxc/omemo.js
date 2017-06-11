@@ -1,6 +1,8 @@
 import nacl from 'tweetnacl'
+import { machineIdSync } from 'node-machine-id'
+
 import { buffer, typedArray, crypto, keys } from './utils'
-import { machineId, machineIdSync } from 'node-machine-id'
+
 
 export default class {
     /**
@@ -20,7 +22,9 @@ export default class {
         //var derivedKey = pbkdf2.pbkdf2Sync('password', 'salt', 1, 32, 'sha512')
         //console.log(derivedKey.toString('hex'))
         //will do this once initial bachelor project is done.
+
         console.log(machineIdSync()) //woot.
+        this._deviceid = null
 
         // Storage function that is set later on.
         this._store = null
@@ -40,7 +44,7 @@ export default class {
         this._stagedSkippedMessageKeys = []
 
         // Am I Alice or Bob in this scenario?
-        // roles should be phased out for omemo 
+        // roles should be phased out for omemo
         // and should be reduced to sender and reciever
         // to enable a multi party sessioN
         this._role = null
@@ -74,12 +78,6 @@ export default class {
 
         return this
     }
-
-    deviceid () {
-       this._deviceid = machineIdSync() 
-        console.log(this._deviceid)
-    }
-
 
     /**
      * Serialize our session to a simple object of strings, integers, and arrays
