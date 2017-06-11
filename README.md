@@ -16,8 +16,9 @@ Milestones
 * 11 june 2017: reading axolotl/olm spec as well as further omemo protocol inspection to identify missing pieces
 ```diff
 - encountered Error with node-machine-id package - see output:  https://gist.github.com/Shokodemon/5148d0dafb27fa6427cbc28c52ee8416
-+    * must fix package before proceeding so that we can grab a deviceId for omemo
-+    * forking, fixing and sending a pull request.
++ must fix package before proceeding so that we can grab a deviceId for omemo
++ 18:00 forking, fixing and sending a pull request.
++ 20:00 - issue fixed, sent a pull request to author.
 ```
 **upcoming**
 
