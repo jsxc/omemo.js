@@ -18,7 +18,7 @@ Milestones
 - encountered Error with node-machine-id package - see output:  https://gist.github.com/Shokodemon/5148d0dafb27fa6427cbc28c52ee8416
 + must fix package before proceeding so that we can grab a deviceId for omemo
 + 18:00 forking, fixing and sending a pull request.
-+ 20:00 - issue fixed, sent a pull request to author.
++ 20:00 issue fixed, sent a pull request to author.
 ```
 **upcoming**
 
